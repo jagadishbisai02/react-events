@@ -1,0 +1,49 @@
+.event-item {
+  width: 98%;
+  margin-right: 24px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .event-item {
+    width: 45%;
+  }
+}
+
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 468px;
+}
+
+.event-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+}
+
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  margin: 0px;
+  margin-top: 12px;
+  color: #f8fafc;
+}
+
+.location {
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 24px;
+  margin: 0px;
+  margin-top: 4px;
+  color: #f8fafc;
+}
